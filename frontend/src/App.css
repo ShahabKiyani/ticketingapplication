@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.background-design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #1e90ff, #20b2aa);
+  color: white;
+  text-align: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -12,14 +12,16 @@ import EditTicketPage from "./pages/EditTicket/EditTicketPage.js";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/create-ticket" element={<CreateTicketPage />} />
-        <Route path="/ticketpage" element={<TicketListPage />} />
-        <Route path="/edit-ticket/:id" element={<EditTicketPage />} />
-      </Routes>
-    </Router>
+    <div className="background-design">
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/create-ticket" element={<CreateTicketPage />} />
+          <Route path="/ticketpage" element={<TicketListPage />} />
+          <Route path="/edit-ticket/:id" element={<EditTicketPage />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
