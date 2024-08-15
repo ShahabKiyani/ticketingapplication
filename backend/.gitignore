@@ -73,4 +73,4 @@ __pycache__/
 .DS_Store
 
 # Sensitive files
-src/db.js
+/src/db.js
